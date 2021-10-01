@@ -1,0 +1,20 @@
+class contaBancaria {
+    private String cliente;
+    private int numconta;
+    private float saldo;
+    
+    public float (sacar) {
+        public void depositar (float valor) {
+            
+        }
+    
+        }
+    
+    
+}
+ 
+class contaPoupanca extends contaBancaria{
+    }
+
+class contaEspecial extends contaBancaria{
+    }
