@@ -4,16 +4,58 @@ class contaBancaria {
     private float saldo;
     
     public float (sacar) {
+        float saldoatual = this.saldo;
+        saldoatual = saldoatual-valor;
+        if (saldoatual) < 0 {
+            return this.saldo;
+        }
+        this.saldo =this.saldo+valor;
+        return  this.saldo;
+    }
+        
         public void depositar (float valor) {
-            
+            this.saldo = this.saldo + valor
+        
         }
-    
-        }
+public String setcliente(String cliente){
+    this.cliente = cliente;
+}
+
+
+
+
+public void getcliente (){
+    return this.cliente;
+}
+
+public String setnumconta(String numconta){
+    this.numconta = numconta;
+}
+
+
+
+
+public void getnumconta (){
+    return this.numconta;
+}
+
+public String setsaldo(String saldo){
+    this.saldo = saldo;
+}
+
+
+
+
+public void setsaldo (){
+    return this.saldo;
+}
+        
     
     
 }
  
 class contaPoupanca extends contaBancaria{
+    
     }
 
 class contaEspecial extends contaBancaria{
